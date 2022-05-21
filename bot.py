@@ -38,7 +38,7 @@ def bot_start(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
     btn1 = types.KeyboardButton("Проверить вакансию")
     markup.add(btn1)
-    bot.send_message(chat_id, 'Бот запушен', reply_markup=markup)
+    bot.send_message(chat_id, 'Бот запущен', reply_markup=markup)
 
 
 @bot.message_handler(content_types=["text"])
